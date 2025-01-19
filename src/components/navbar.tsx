@@ -18,9 +18,9 @@ function NavBar() {
         <Image src="/image/djamo-logo-black.svg" height={50} width={100} alt="Djamo" />
       </div>
       <div className="flex justify-center gap-8 items-center">
-        {navList.map((item) => {
+        {navList.map((item, index) => {
           return (
-            <ul className=" hover:cursor-pointer hover:bg-slate-100 py-2 px-1 hover:text-blue-700">
+            <ul  key={index} className=" hover:cursor-pointer hover:bg-slate-100 py-2 px-1 hover:text-blue-700">
               <li className="text-[16px] font-normal">{item}</li>
             </ul>
           );
