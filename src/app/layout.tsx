@@ -5,7 +5,7 @@ import localFont from 'next/font/local'
 const myFont = localFont({
   weight: '100',
   variable: '--font-FuturaCyrillicBook',
-  src: '../../public/fonts/FuturaCyrillicBold.ttf'
+  src: '../../public/fonts/FuturaPTBook.otf'
  })
 
 
