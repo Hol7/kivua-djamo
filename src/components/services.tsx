@@ -48,7 +48,7 @@ export default function Services() {
     <div className="px-20 py-20 flex flex-col justify-center items-center bg-backgroundW">
     <div className="text-center px-40">
       <h2 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-800 via-amber-400 to-blue-800 ">
-        L'appli qu'il vous faut pour mieux gérer votre argent
+        L`appli qu`il vous faut pour mieux gérer votre argent
       </h2>
       <p className="text-lg font-medium py-8">
         Dites adieu à la frustration!
@@ -81,8 +81,7 @@ export default function Services() {
               <Icon
                 icon={item.icon}
                 style={{ fontSize: "35px" }}
-                className="group-hover:text-white"
-                // className="text-blue-500"
+                className="group-hover:text-red"
               />
               <h2 className="text-lg font-bold">{item.name}</h2>
             </div>
